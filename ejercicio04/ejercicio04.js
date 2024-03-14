@@ -1,6 +1,6 @@
 let valores = [true, 5, false, "hola", "adios", 2];
 
-function prueba ( valores.indexOf(5), valores.indexOf(4)){
-    valores.indexOf(5).length;
-    valores.indexOf(4).length;
-}
+// Para comparar dos strings lo hace siguiendo el orden alfabéito, el que vaya después en el alfabeto será mayor
+let mayor = (valores[3] > valores [4])?valores[3]:valores[4];
+
+alert ('El mayor es '+mayor);
